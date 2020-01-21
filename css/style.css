@@ -1,6 +1,5 @@
 body{
     font-size: 16px;
-    background-color: blueviolet;
 }
 li{
     float: left;
@@ -17,20 +16,20 @@ a{
 */
 .head_main{
     background-color: #66ccff;
-    height: 50px;
+    height: 45px;
 }
 .head_logo{
     font-size: 24px;
     font-weight: bold;
     text-align: center;
-    line-height: 50px;
+    line-height: 45px;
 }
 .head_logo:hover{
     text-decoration: none;
 }
 .head_item li{
     padding-right: 70px;
-    line-height: 50px;
+    line-height: 45px;
 }
 /*
     head style end
@@ -42,11 +41,14 @@ a{
 .headimg_main{
     height: 632px;
     overflow: hidden;
-    padding-bottom: 0;
+    
+    padding: 0;
+    box-shadow: 5px 5px 15px #888888;
 }
 .headimg_main img{
     width: 100%;
     text-align: center;
+    
 }
 /*
     headimg style end
@@ -56,23 +58,54 @@ a{
     body style start
 */
 .body_left_data{
-    
+    margin-bottom: 20px;
 }
 .body_rightmenu{
-    height: 900px;
-    background-color: yellow;
-    
+    padding-top: 15px;
+    text-align: center;
+    overflow: hidden;
+}
+.body_rightmenu img{
+    border-radius: 10px;
+    border-style: inset;
+    border-width: 5px;
+    padding: 0;
+    border-color: #66ccff;
 }
 .body_r1{
-    height: 300px;
-    background-color: beige;
+    
+    margin-top: 15px;
+    border-bottom-style: outset;
+    border-color:violet;
+    border-width: 5px;
+    border-right-style: outset;
+    border-left-style: outset;
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px #888888;
+    overflow: auto;
+}
+.body_data{
+    margin-top: 20px;
+    height: 75%;
+    overflow: auto;
+}
+.body_data h1{
+    margin-top: 0;
+}
+.body_bottom{
+    float:right;
+}
+.body_bottom span{
+    float: right;
+    padding-left: 30px;
+    color: #888888;
 }
 .body_r2{
-    height: 300px;
+    height: 250px;
     background-color: blue;
 }
 .body_r3{
-    height: 300px;
+    height: 250px;
     background-color: chocolate;
 }
 /*
@@ -82,9 +115,17 @@ a{
 /*
     bottom style start
 */
+.bottom_pages{
+    height: 40px;
+    background-color:burlywood;
+    text-align: center;
+    line-height: 40px;
+}
 .bottom_main{
-    height: 200px;
+    height: 50px;
     background-color: #66ccff;
+    text-align: center;
+    line-height: 50px;
 }
 /*
     bottom style end
