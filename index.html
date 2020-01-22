@@ -4,6 +4,7 @@
         <title>
             Foxfish的博客
         </title>
+        <link rel="shortcut icon" href="./image/icon.png">
         <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0" />
         <!-- 新 Bootstrap 核心 CSS 文件 --> 
         <link href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
@@ -15,11 +16,17 @@
         <link rel="stylesheet" href="./css/style.css">
     </head>
     <body>
-        <div class="">
-            <!--头部开始-->
-            <div class="col-lg-12 col-xs-12 head_main">
-                <a href="#" class="head_logo col-xs-12 col-lg-4">Fox-Fish's blog</a>
-                <div class="head_item col-lg-8 visible-lg-block">
+        <div class="all_body">
+            <div id="leftmenu" class="all_leftmenu">
+                <div class="all_leftlogo">
+                    <img src="./image/intro.jpg">
+                    <a href="#">
+                        <h1>Fox-Fish's blog</h1>
+                    </a>
+                    <p>编程与东方project的结合</p>
+                    <p>╭( ･ㅂ･)و ̑̑</p>
+                </div>
+                <div class="all_leftdata">
                     <li>
                         <a href="#">About</a>
                     </li>
@@ -30,146 +37,224 @@
                         <a href="#">CSS奇淫技</a>
                     </li>
                     <li>
-                        <a href="#">李正给我点灵感</a>
+                        <a href="#">特效实验室</a>
                     </li>
                 </div>
             </div>
-            <!--头部结束-->
-            <!--头图开始-->
-            <div class="container">
-                <div id="headimg" class="col-xs-12 col-lg-12 headimg_main">
-                    <img src="./image/head1.png" alt="">
-                </div>
-            </div>
-            <!--头图结束-->
-            <!--主体开始-->
-            <div class="container">
-                <div class="col-lg-9 col-xs-12 body_left_data">
-                    <div class="col-lg-12 col-xs-12 body_r1">
-                        <div id="body_r1" class="body_data">
-                            <h1>
-                                我是一个标题
-                            </h1>
-                            <p>
-                                我是项目解释文字我是项目解释文字我是项目解释文字我是项目解释文字我是项目解释文字我是项目解释文字我是项目解释文字我是项目解释文字我是项目解释文字
-                            </p>
-                            <p>
-                                我是项目解释文字我是项目解释文字我是项目解释文字我是项目解释文字我是项目解释文字我是项目解释文字我是项目解释文字我是项目解释文字我是项目解释文字
-                            </p>
-                        </div>
-                        <div id="body_b1" class="body_bottom">
-                            <span>
-                                2020/01/21
-                            </span>
-                            <span>
-                                tag:text
-                            </span>
-                        </div>
+            <div id="mainpage" class="all_main">
+                <!--头部开始-->
+                <div class="col-lg-12 col-xs-12 head_main">
+                    <span class="visible-xs-block" onclick="showleftmenu();">
+                        <img src="./image/list.png" alt="">
+                    </span>
+                    
+                    <div class="head_logo col-xs-12 col-lg-4">
+                        <a href="#">Fox-Fish's blog</a>
                     </div>
-                    <div class="col-lg-12 col-xs-12 body_r1">
-                        <div id="body_r2" class="body_data">
-                            <h1>
-                                没有写完的动图
-                            </h1>
-                            <p>
-                                我是项目解释文字我是项目解释文字我是项目解释文字我是项目解释文字我是项目解释文字我是项目解释文字我是项目解释文字我是项目解释文字我是项目解释文字
-                            </p>
-                            <p>
-                                怎么动？？怎么动？？怎么动？？怎么动？？怎么动？？怎么动？？怎么动？？怎么动？？怎么动？？怎么动？？怎么动？？怎么动？？怎么动？？怎么动？？怎么动？？怎么动？？怎么动？？怎么动？？怎么动？？怎么动？？怎么动？？怎么动？？
-                            </p>
-                        </div>
-                        <div id="body_b2" class="body_bottom">
-                            <span>
-                                2020/01/21
-                            </span>
-                            <span>
-                                tag:text
-                            </span>
-                        </div>
-                    </div>
-                    <div class="col-lg-12 col-xs-12 body_r1">
-                        <div id="body_r3" class="body_data">
-                            <h1>
-                                我是一个标题
-                            </h1>
-                            <p>
-                                我是项目解释文字我是项目解释文字我是项目解释文字我是项目解释文字我是项目解释文字我是项目解释文字我是项目解释文字我是项目解释文字我是项目解释文字
-                            </p>
-                            <p>
-                                我是项目解释文字我是项目解释文字我是项目解释文字我是项目解释文字我是项目解释文字我是项目解释文字我是项目解释文字我是项目解释文字我是项目解释文字
-                            </p>
-                        </div>
-                        <div id="body_b3" class="body_bottom">
-                            <span>
-                                2020/01/21
-                            </span>
-                            <span>
-                                tag:text
-                            </span>
-                        </div>
-                    </div>
-                    <div class="col-lg-12 col-xs-12 body_r1">
-                        <div id="body_r4" class="body_data">
-                            <h1>
-                                我不想当个标题
-                            </h1>
-                            <p>
-                                我是项目解释文字我是项目解释文字我是项目解释文字我是项目解释文字我是项目解释文字我是项目解释文字我是项目解释文字我是项目解释文字我是项目解释文字
-                            </p>
-                            <p>
-                                我不想解释什么我不想解释什么我不想解释什么我不想解释什么我不想解释什么我不想解释什么我不想解释什么我不想解释什么我不想解释什么
-                            </p>
-                        </div>
-                        <div id="body_b4" class="body_bottom">
-                            <span>
-                                2020/01/21
-                            </span>
-                            <span>
-                                tag:text
-                            </span>
-                        </div>
-                    </div>
-                    <div class="col-lg-12 col-xs-12 body_r1">
-                        <div id="body_r5" class="body_data">
-                            <h1>
-                                我是一个标题
-                            </h1>
-                            <p>
-                                我是项目解释文字我是项目解释文字我是项目解释文字我是项目解释文字我是项目解释文字我是项目解释文字我是项目解释文字我是项目解释文字我是项目解释文字
-                            </p>
-                            <p>
-                                我是项目解释文字我是项目解释文字我是项目解释文字我是项目解释文字我是项目解释文字我是项目解释文字我是项目解释文字我是项目解释文字我是项目解释文字
-                            </p>
-                        </div>
-                        <div id="body_b5" class="body_bottom">
-                            <span>
-                                2020/01/21
-                            </span>
-                            <span>
-                                tag:text
-                            </span>
-                        </div>
+                    <div class="head_item col-lg-8 visible-lg-block">
+                        <li>
+                            <a href="#">About</a>
+                        </li>
+                        <li>
+                            <a href="#">ACM技能树</a>
+                        </li>
+                        <li>
+                            <a href="#">CSS奇淫技</a>
+                        </li>
+                        <li>
+                            <a href="#">特效实验室</a>
+                        </li>
                     </div>
                 </div>
-                <div class="col-lg-3 visible-lg-block body_rightmenu">
-                    <img src="./image/intro.jpg" alt="" class="col-lg-12">
-                    <h1>Fox-Fish's blog</h1>
-                    <p>编程与东方project的结合</p>
-                    <p>╭( ･ㅂ･)و ̑̑</p>
-                    <p>一些说明文字一些说明文字一些说明文字一些说明文字一些说明文字一些说明文字一些说明文字一些说明文字一些说明文字一些说明文字一些说明文字一些说明文字一些说明文字一些说明文字一些说明文字</p>
+                <!--头部结束-->
+                <!--头图开始-->
+                <div class="container">
+                    <div id="headimg" class="col-xs-12 col-lg-12 headimg_main">
+                        <img src="./image/head1.png" alt="">
+                    </div>
                 </div>
-            </div>
-            <!--主体结束-->
-            <!--底部开始-->
-            <div class="col-lg-12 col-xs-12">
-                <div class="col-lg-9 col-xs-12 bottom_pages">
-                    <p>页码设置处</p>
+                <!--头图结束-->
+                <!--主体开始-->
+                <div class="container">
+                    <div class="col-lg-9 col-xs-12 body_left_data">
+                        <div class="col-lg-12 col-xs-12 body_r1">
+                            <div id="body_r1" class="body_data">
+                                <a href="#">
+                                    <h1>我是一个标题</h1>
+                                </a>
+                                <p>
+                                    我是项目解释文字我是项目解释文字我是项目解释文字我是项目解释文字我是项目解释文字我是项目解释文字我是项目解释文字我是项目解释文字我是项目解释文字
+                                </p>
+                                <p>
+                                    我是项目解释文字我是项目解释文字我是项目解释文字我是项目解释文字我是项目解释文字我是项目解释文字我是项目解释文字我是项目解释文字我是项目解释文字
+                                </p>
+                            </div>
+                            <div id="body_b1" class="body_bottom">
+                                <span>
+                                    2020/01/21
+                                </span>
+                                <span>
+                                    tag:text
+                                </span>
+                            </div>
+                        </div>
+                        <div class="col-lg-12 col-xs-12 body_r1">
+                            <div id="body_r2" class="body_data">
+                                <a href="#">
+                                    <h1>我是一个标题</h1>
+                                </a>
+                                <p>
+                                    我是项目解释文字我是项目解释文字我是项目解释文字我是项目解释文字我是项目解释文字我是项目解释文字我是项目解释文字我是项目解释文字我是项目解释文字
+                                </p>
+                                <p>
+                                    怎么动？？怎么动？？怎么动？？怎么动？？怎么动？？怎么动？？怎么动？？怎么动？？怎么动？？怎么动？？怎么动？？怎么动？？怎么动？？怎么动？？怎么动？？怎么动？？怎么动？？怎么动？？怎么动？？怎么动？？怎么动？？怎么动？？
+                                </p>
+                            </div>
+                            <div id="body_b2" class="body_bottom">
+                                <span>
+                                    2020/01/21
+                                </span>
+                                <span>
+                                    tag:text
+                                </span>
+                            </div>
+                        </div>
+                        <div class="col-lg-12 col-xs-12 body_r1">
+                            <div id="body_r3" class="body_data">
+                                <a href="#">
+                                    <h1>我是一个标题</h1>
+                                </a>
+                                <p>
+                                    我是项目解释文字我是项目解释文字我是项目解释文字我是项目解释文字我是项目解释文字我是项目解释文字我是项目解释文字我是项目解释文字我是项目解释文字
+                                </p>
+                                <p>
+                                    我是项目解释文字我是项目解释文字我是项目解释文字我是项目解释文字我是项目解释文字我是项目解释文字我是项目解释文字我是项目解释文字我是项目解释文字
+                                </p>
+                            </div>
+                            <div id="body_b3" class="body_bottom">
+                                <span>
+                                    2020/01/21
+                                </span>
+                                <span>
+                                    tag:text
+                                </span>
+                            </div>
+                        </div>
+                        <div class="col-lg-12 col-xs-12 body_r1">
+                            <div id="body_r4" class="body_data">
+                                <a href="#">
+                                    <h1>我是一个标题</h1>
+                                </a>
+                                <p>
+                                    我是项目解释文字我是项目解释文字我是项目解释文字我是项目解释文字我是项目解释文字我是项目解释文字我是项目解释文字我是项目解释文字我是项目解释文字
+                                </p>
+                                <p>
+                                    我不想解释什么我不想解释什么我不想解释什么我不想解释什么我不想解释什么我不想解释什么我不想解释什么我不想解释什么我不想解释什么
+                                </p>
+                            </div>
+                            <div id="body_b4" class="body_bottom">
+                                <span>
+                                    2020/01/21
+                                </span>
+                                <span>
+                                    tag:text
+                                </span>
+                            </div>
+                        </div>
+                        <div class="col-lg-12 col-xs-12 body_r1">
+                            <div id="body_r5" class="body_data">
+                                <a href="#">
+                                    <h1>我是一个标题</h1>
+                                </a>
+                                <p>
+                                    我是项目解释文字我是项目解释文字我是项目解释文字我是项目解释文字我是项目解释文字我是项目解释文字我是项目解释文字我是项目解释文字我是项目解释文字
+                                </p>
+                                <p>
+                                    我是项目解释文字我是项目解释文字我是项目解释文字我是项目解释文字我是项目解释文字我是项目解释文字我是项目解释文字我是项目解释文字我是项目解释文字
+                                </p>
+                            </div>
+                            <div id="body_b5" class="body_bottom">
+                                <span>
+                                    2020/01/21
+                                </span>
+                                <span>
+                                    tag:text
+                                </span>
+                            </div>
+                        </div>
+                        <div class="col-lg-12 col-xs-12 body_r1">
+                            <div id="body_r6" class="body_data">
+                                <a href="#">
+                                    <h1>我是一个标题</h1>
+                                </a>
+                                <p>
+                                    我是项目解释文字我是项目解释文字我是项目解释文字我是项目解释文字我是项目解释文字我是项目解释文字我是项目解释文字我是项目解释文字我是项目解释文字
+                                </p>
+                                <p>
+                                    我是项目解释文字我是项目解释文字我是项目解释文字我是项目解释文字我是项目解释文字我是项目解释文字我是项目解释文字我是项目解释文字我是项目解释文字
+                                </p>
+                            </div>
+                            <div id="body_b6" class="body_bottom">
+                                <span>
+                                    2020/01/21
+                                </span>
+                                <span>
+                                    tag:text
+                                </span>
+                            </div>
+                        </div>
+                        <div class="col-lg-12 col-xs-12 body_r1">
+                            <div id="body_r7" class="body_data">
+                                <a href="#">
+                                    <h1>我是一个标题</h1>
+                                </a>
+                                <p>
+                                    我是项目解释文字我是项目解释文字我是项目解释文字我是项目解释文字我是项目解释文字我是项目解释文字我是项目解释文字我是项目解释文字我是项目解释文字
+                                </p>
+                                <p>
+                                    我是项目解释文字我是项目解释文字我是项目解释文字我是项目解释文字我是项目解释文字我是项目解释文字我是项目解释文字我是项目解释文字我是项目解释文字
+                                </p>
+                            </div>
+                            <div id="body_b7" class="body_bottom">
+                                <span>
+                                    2020/01/21
+                                </span>
+                                <span>
+                                    tag:text
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 visible-lg-block body_rightmenu">
+                        <img src="./image/intro.jpg" alt="" class="col-lg-12">
+                        <a href="#">
+                            <h1>Fox-Fish's blog</h1>
+                        </a>
+                        <p>编程与东方project的结合</p>
+                        <p>╭( ･ㅂ･)و ̑̑</p>
+                        <p>一些说明文字一些说明文字一些说明文字一些说明文字一些说明文字一些说明文字一些说明文字一些说明文字一些说明文字一些说明文字一些说明文字一些说明文字一些说明文字一些说明文字一些说明文字</p>
+                    </div>
                 </div>
+                <!--主体结束-->
+                <!--底部开始-->
+                <div class="col-lg-12 col-xs-12 container">
+                    <div class="col-lg-9 col-xs-12 bottom_pages">
+                        <span><-brfore</span>
+                        <span>1</span>
+                        <span>2</span>
+                        <span>3</span>
+                        <span>4</span>
+                        <span>5</span>
+                        <span>next-></span>
+                    </div>
+                </div>
+                <div class="col-lg-12 col-xs-12 bottom_main">
+                    <span>传送门：</span>
+                    <a href="#">Fox_Fish's blog</a>
+                </div>
+                <!--底部结束-->
             </div>
-            <div class="col-lg-12 col-xs-12 bottom_main">
-                <p>底部没有东西，别问我东方project是啥</p>
-            </div>
-            <!--底部结束-->
         </div>
+
     </body>
 </html>

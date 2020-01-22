@@ -11,14 +11,101 @@ a{
     font-size: 16px;
     color: black;
 }
+a:hover{
+    text-decoration: none;
+    color: blueviolet;
+    
+}
+a:focus{
+    text-decoration: none;
+    color: violet;
+}
+
+/*
+    all style start
+*/
+.all_body{
+    overflow: hidden;
+}
+.all_main{
+    position: relative;
+    left: 0px;
+}
+.all_leftmenu{
+    width: 300px;
+    background-color:rgb(126, 124, 124);
+    position: absolute;
+    z-index: 1000;
+    left: -300px;
+    overflow: hidden;
+}
+.all_leftdata{
+    overflow: hidden;
+}
+.all_leftdata li{
+    margin-bottom: 2px;
+    width: 300px;
+    height: 50px;
+    font-size: 20px;
+    line-height: 50px;
+    font-weight: bold;
+    
+}
+.all_leftdata a{
+    display: block;
+    width: 300px;
+    height: 50px;
+    background-color: #66ccff;
+    padding-left: 20px;
+}
+.all_leftdata a:hover{
+    background-color: #66ccffbe;
+}
+.all_leftlogo{
+    padding: 30px 15px;
+    text-align: center;
+    overflow: hidden;
+}
+.all_leftlogo img{
+    width: 80%;
+    border-radius: 10px;
+    border-style: inset;
+    border-width: 5px;
+    padding: 0;
+    border-color: #66ccff;
+}
+/*
+    all style end
+*/
+
 /*
     head style start
 */
 .head_main{
     background-color: #66ccff;
     height: 45px;
+    position: fixed;
+    z-index: 100;
+    line-height: 45px;
+}
+.head_main span{
+    margin-left: 15px;
+    display: block;
+    overflow: hidden;
+    position: absolute;
+    cursor: pointer;
+    line-height: 45px;
+    z-index: 101;
+}
+.head_main img{
+    height: 36px;
+    width: 36px;
 }
 .head_logo{
+    display:flex;
+}
+.head_logo a{
+    margin: auto;
     font-size: 24px;
     font-weight: bold;
     text-align: center;
@@ -41,7 +128,7 @@ a{
 .headimg_main{
     height: 632px;
     overflow: hidden;
-    
+    margin-top: 45px;
     padding: 0;
     box-shadow: 5px 5px 15px #888888;
 }
@@ -116,16 +203,31 @@ a{
     bottom style start
 */
 .bottom_pages{
-    height: 40px;
-    background-color:burlywood;
-    text-align: center;
-    line-height: 40px;
-}
-.bottom_main{
     height: 50px;
-    background-color: #66ccff;
     text-align: center;
     line-height: 50px;
+    
+}
+.bottom_pages span{
+    cursor: pointer;
+    background-color: snow;
+    border-color: #66ccff;
+    border-style:outset;
+    border-width: 2px;
+    padding: 3px 8px;
+}
+.bottom_pages span:hover{
+    border-color: blueviolet;
+}
+.bottom_pages span:focus{
+    background-color: #888888;
+    border-style: inset;
+}
+.bottom_main{
+    overflow: hidden;
+    background-color: #66ccff;
+    float: left;
+    padding: 15px 30px;
 }
 /*
     bottom style end
