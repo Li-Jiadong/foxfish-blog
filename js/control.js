@@ -5,7 +5,7 @@ var cimages;
 window.onload=function(){
     var imsize=document.getElementById('headimg');
     var w=Number(imsize.clientWidth);
-    imsize.style.height=w/32*17+'px';
+    imsize.style.height=w/2+'px';
     leftmenu=document.getElementById('leftmenu');
     mainpage=document.getElementById('mainpage');
     leftmenu.style.left='-300px';
@@ -15,7 +15,7 @@ window.onload=function(){
 window.onresize = function(){
     var imsize=document.getElementById('headimg');
     var w=Number(imsize.clientWidth);
-    imsize.style.height=w/32*17+'px';
+    imsize.style.height=w/2+'px';//1140*570
 }
 function showleftmenu(){
     var returnpage=document.getElementById('leftmenu_right');
@@ -63,7 +63,7 @@ function changeimage(){
     var num=16;
     var i=Math.floor(Math.random()*num);
     var imgs=document.getElementById('imgs');
-    imgs.src='./image/head'+i+'.png';
+    imgs.src='./image/head'+i+'.jpg';
     return function(){
         //alert(i);
         var ii
@@ -71,6 +71,6 @@ function changeimage(){
             ii=Math.floor(Math.random()*num);
         }while(i==ii);
         i=ii;
-        imgs.src='./image/head'+i+'.png';
+        imgs.src='./image/head'+i+'.jpg';
     }   
 }
