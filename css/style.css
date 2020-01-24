@@ -242,3 +242,44 @@ a:focus{
 /*
     bottom style end
 */
+
+/*
+    container style start
+*/
+#body_passage{
+    display: flex;
+    flex-direction: column;
+}
+#body_passage h1{
+    text-align: center;
+}
+#body_passage span{
+    color: gray;
+    align-self: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#body_passage p{
+    margin-bottom: 15px;
+    text-indent: 32px;
+}
+#body_passage a{
+    color: blueviolet;
+}
+#body_passage h2{
+    color: #217aa6;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-left-width: 6px;
+    border-left-style: solid;
+    border-color: tomato;
+}
+#body_passage img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+    align-self: flex-start;
+}
+/*
+    container style end
+*/
