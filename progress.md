@@ -37,3 +37,16 @@ document.documentElement.clientHeight ==> 可见区域高度
 屏幕可用工作区高度： window.screen.availHeight  
 屏幕可用工作区宽度： window.screen.availWidth  
 ```
+
+overflow 可取消滑块
+
+## JavaScript 计时事件
+
+通过使用 JavaScript，我们有能力做到在一个设定的时间间隔之后来执行代码，而不是在函数被调用后立即执行。我们称之为计时事件。
+
+在 JavaScritp 中使用计时事件是很容易的，两个关键方法是:
+
+- setInterval() - 间隔指定的毫秒数不停地执行指定的代码。
+- setTimeout() - 在指定的毫秒数后执行指定代码。
+
+**注意:** setInterval() 和 setTimeout() 是 HTML DOM Window对象的两个方法。

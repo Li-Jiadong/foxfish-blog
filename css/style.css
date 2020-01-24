@@ -47,7 +47,7 @@ a:focus{
     z-index: 1000;
     background-color: #69a3bf;
     left: 300px;
-    opacity: 0.2;
+    opacity: 0;
 }
 .all_leftdata{
     overflow:hidden;
