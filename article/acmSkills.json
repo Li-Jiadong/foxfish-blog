@@ -1,0 +1,568 @@
+{
+    "data":[
+        {
+            "name":"h1",
+            "contain":"ACM技能树"
+        },
+        {
+            "name":"h2",
+            "contain":"思维方法"
+        },
+        {
+            "name":"h3",
+            "contain":{
+                "data":[
+                    {
+                        "name":"span",
+                        "class":"label label-success lable_tag",
+                        "contain":"枚举"
+                    },
+                    {
+                        "name":"span",
+                        "class":"label label-success lable_tag",
+                        "contain":"模拟"
+                    },
+                    {
+                        "name":"span",
+                        "class":"label label-default lable_tag",
+                        "contain":"递归&分治"
+                    },
+                    {
+                        "name":"span",
+                        "class":"label label-default lable_tag",
+                        "contain":"贪心"
+                    },
+                    {
+                        "name":"span",
+                        "class":"label label-success lable_tag",
+                        "contain":"排序"
+                    },
+                    {
+                        "name":"span",
+                        "class":"label label-success lable_tag",
+                        "contain":"二分"
+                    },
+                    {
+                        "name":"span",
+                        "class":"label label-default lable_tag",
+                        "contain":"倍增"
+                    },
+                    {
+                        "name":"span",
+                        "class":"label label-default lable_tag",
+                        "contain":"构造"
+                    },
+                    {
+                        "name":"span",
+                        "class":"label label-success lable_tag",
+                        "contain":"前缀和&差分"
+                    }
+                ]
+            }
+        },
+        {
+            "name":"h2",
+            "contain":"搜索"
+        },
+        {
+            "name":"h3",
+            "contain":{
+                "data":[
+                    {
+                        "name":"span",
+                        "class":"label label-success lable_tag",
+                        "contain":"DFS"
+                    },
+                    {
+                        "name":"span",
+                        "class":"label label-success lable_tag",
+                        "contain":"BFS"
+                    },
+                    {
+                        "name":"span",
+                        "class":"label label-default lable_tag",
+                        "contain":"双向搜索"
+                    },
+                    {
+                        "name":"span",
+                        "class":"label label-default lable_tag",
+                        "contain":"启发式搜索"
+                    },
+                    {
+                        "name":"span",
+                        "class":"label label-default lable_tag",
+                        "contain":"A*"
+                    },
+                    {
+                        "name":"span",
+                        "class":"label label-default lable_tag",
+                        "contain":"迭代加深搜索"
+                    },
+                    {
+                        "name":"span",
+                        "class":"label label-default lable_tag",
+                        "contain":"IDA*"
+                    },
+                    {
+                        "name":"span",
+                        "class":"label label-default lable_tag",
+                        "contain":"回溯法"
+                    },
+                    {
+                        "name":"span",
+                        "class":"label label-default lable_tag",
+                        "contain":"Dancing Links"
+                    }
+                ]
+            }
+        },
+        {
+            "name":"h2",
+            "contain":"字符串"
+        },
+        {
+            "name":"h3",
+            "contain":{
+                "data":[
+                    {
+                        "name":"span",
+                        "class":"label label-success lable_tag",
+                        "contain":"标准库"
+                    },
+                    {
+                        "name":"span",
+                        "class":"label label-success lable_tag",
+                        "contain":"哈希"
+                    },
+                    {
+                        "name":"span",
+                        "class":"label label-success lable_tag",
+                        "contain":"KMP&&扩展KMP"
+                    },
+                    {
+                        "name":"span",
+                        "class":"label label-default lable_tag",
+                        "contain":"字典树"
+                    },
+                    {
+                        "name":"span",
+                        "class":"label label-default lable_tag",
+                        "contain":"AC自动机"
+                    },
+                    {
+                        "name":"span",
+                        "class":"label label-default lable_tag",
+                        "contain":"后缀数组"
+                    },
+                    {
+                        "name":"span",
+                        "class":"label label-default lable_tag",
+                        "contain":"后缀自动机"
+                    },
+                    {
+                        "name":"span",
+                        "class":"label label-default lable_tag",
+                        "contain":"后缀树"
+                    },
+                    {
+                        "name":"span",
+                        "class":"label label-default lable_tag",
+                        "contain":"回文自动机"
+                    },
+                    {
+                        "name":"span",
+                        "class":"label label-default lable_tag",
+                        "contain":"Manacher"
+                    },
+                    {
+                        "name":"span",
+                        "class":"label label-default lable_tag",
+                        "contain":"最小表示法"
+                    },
+                    {
+                        "name":"span",
+                        "class":"label label-default lable_tag",
+                        "contain":"Lyndon分解"
+                    }
+                ]
+            }
+        },
+        {
+            "name":"h2",
+            "contain":"图论"
+        },
+        {
+            "name":"h3",
+            "contain":{
+                "data":[
+                    {
+                        "name":"span",
+                        "class":"label label-default lable_tag",
+                        "contain":"树的重心&树的直径"
+                    },
+                    {
+                        "name":"span",
+                        "class":"label label-default lable_tag",
+                        "contain":"LCA"
+                    },
+                    {
+                        "name":"span",
+                        "class":"label label-default lable_tag",
+                        "contain":"树哈希"
+                    },
+                    {
+                        "name":"span",
+                        "class":"label label-default lable_tag",
+                        "contain":"树剖"
+                    },
+                    {
+                        "name":"span",
+                        "class":"label label-default lable_tag",
+                        "contain":"点分治"
+                    },
+                    {
+                        "name":"span",
+                        "class":"label label-default lable_tag",
+                        "contain":"动态树分治"
+                    },
+                    {
+                        "name":"span",
+                        "class":"label label-default lable_tag",
+                        "contain":"虚树"
+                    },
+                    {
+                        "name":"span",
+                        "class":"label label-default lable_tag",
+                        "contain":"树上启发式合并"
+                    },
+                    {
+                        "name":"span",
+                        "class":"label label-default lable_tag",
+                        "contain":"矩阵树定理"
+                    },
+                    {
+                        "name":"span",
+                        "class":"label label-default lable_tag",
+                        "contain":"有向无环图"
+                    },
+                    {
+                        "name":"span",
+                        "class":"label label-default lable_tag",
+                        "contain":"拓扑排序"
+                    },
+                    {
+                        "name":"span",
+                        "class":"label label-default lable_tag",
+                        "contain":"最小生成树"
+                    },
+                    {
+                        "name":"span",
+                        "class":"label label-default lable_tag",
+                        "contain":"最小树形图"
+                    },
+                    {
+                        "name":"span",
+                        "class":"label label-default lable_tag",
+                        "contain":"最短路"
+                    },
+                    {
+                        "name":"span",
+                        "class":"label label-default lable_tag",
+                        "contain":"差分约束"
+                    },
+                    {
+                        "name":"span",
+                        "class":"label label-default lable_tag",
+                        "contain":"K短路"
+                    },
+                    {
+                        "name":"span",
+                        "class":"label label-default lable_tag",
+                        "contain":"连通性相关"
+                    },
+                    {
+                        "name":"span",
+                        "class":"label label-default lable_tag",
+                        "contain":"欧拉图"
+                    },
+                    {
+                        "name":"span",
+                        "class":"label label-default lable_tag",
+                        "contain":"哈密顿图"
+                    },
+                    {
+                        "name":"span",
+                        "class":"label label-default lable_tag",
+                        "contain":"二分图"
+                    },
+                    {
+                        "name":"span",
+                        "class":"label label-default lable_tag",
+                        "contain":"最小环"
+                    },
+                    {
+                        "name":"span",
+                        "class":"label label-default lable_tag",
+                        "contain":"平面图"
+                    },
+                    {
+                        "name":"span",
+                        "class":"label label-default lable_tag",
+                        "contain":"图的着色"
+                    },
+                    {
+                        "name":"span",
+                        "class":"label label-default lable_tag",
+                        "contain":"网络流"
+                    }
+                ]
+            }
+        },
+        {
+            "name":"h2",
+            "contain":"数据结构"
+        },
+        {
+            "name":"h3",
+            "contain":{
+                "data":[
+                    {
+                        "name":"span",
+                        "class":"label label-success lable_tag",
+                        "contain":"STL"
+                    },
+                    {
+                        "name":"span",
+                        "class":"label label-default lable_tag",
+                        "contain":"栈&单调栈"
+                    },
+                    {
+                        "name":"span",
+                        "class":"label label-default lable_tag",
+                        "contain":"队列&单调队列"
+                    },
+                    {
+                        "name":"span",
+                        "class":"label label-success lable_tag",
+                        "contain":"链表"
+                    },
+                    {
+                        "name":"span",
+                        "class":"label label-default lable_tag",
+                        "contain":"哈希表"
+                    },
+                    {
+                        "name":"span",
+                        "class":"label label-success lable_tag",
+                        "contain":"并查集"
+                    },
+                    {
+                        "name":"span",
+                        "class":"label label-default lable_tag",
+                        "contain":"ST表"
+                    },
+                    {
+                        "name":"span",
+                        "class":"label label-default lable_tag",
+                        "contain":"二叉搜索树&平衡树"
+                    },
+                    {
+                        "name":"span",
+                        "class":"label label-default lable_tag",
+                        "contain":"树状数组"
+                    },
+                    {
+                        "name":"span",
+                        "class":"label label-default lable_tag",
+                        "contain":"线段树"
+                    },
+                    {
+                        "name":"span",
+                        "class":"label label-default lable_tag",
+                        "contain":"可持久化线段树"
+                    },
+                    {
+                        "name":"span",
+                        "class":"label label-default lable_tag",
+                        "contain":"珂朵莉树"
+                    },
+                    {
+                        "name":"span",
+                        "class":"label label-default lable_tag",
+                        "contain":"划分树"
+                    },
+                    {
+                        "name":"span",
+                        "class":"label label-default lable_tag",
+                        "contain":"树套树"
+                    },
+                    {
+                        "name":"span",
+                        "class":"label label-default lable_tag",
+                        "contain":"LCT"
+                    },
+                    {
+                        "name":"span",
+                        "class":"label label-default lable_tag",
+                        "contain":"可持久化字典树"
+                    },
+                    {
+                        "name":"span",
+                        "class":"label label-default lable_tag",
+                        "contain":"析合树"
+                    }
+                ]
+            }
+        },
+        {
+            "name":"h2",
+            "contain":"动态规划"
+        },
+        {
+            "name":"h3",
+            "contain":{
+                "data":[
+                    {
+                        "name":"span",
+                        "class":"label label-default lable_tag",
+                        "contain":"记忆化搜索"
+                    },
+                    {
+                        "name":"span",
+                        "class":"label label-default lable_tag",
+                        "contain":"背包DP"
+                    },
+                    {
+                        "name":"span",
+                        "class":"label label-default lable_tag",
+                        "contain":"区间DP"
+                    },
+                    {
+                        "name":"span",
+                        "class":"label label-default lable_tag",
+                        "contain":"DAG上的DP"
+                    },
+                    {
+                        "name":"span",
+                        "class":"label label-default lable_tag",
+                        "contain":"树形DP"
+                    },
+                    {
+                        "name":"span",
+                        "class":"label label-default lable_tag",
+                        "contain":"状压DP"
+                    },
+                    {
+                        "name":"span",
+                        "class":"label label-default lable_tag",
+                        "contain":"数位DP"
+                    },
+                    {
+                        "name":"span",
+                        "class":"label label-default lable_tag",
+                        "contain":"计数DP"
+                    },
+                    {
+                        "name":"span",
+                        "class":"label label-default lable_tag",
+                        "contain":"插头DP"
+                    },
+                    {
+                        "name":"span",
+                        "class":"label label-default lable_tag",
+                        "contain":"数据结构优化DP"
+                    },
+                    {
+                        "name":"span",
+                        "class":"label label-default lable_tag",
+                        "contain":"四边形不等式优化DP"
+                    },
+                    {
+                        "name":"span",
+                        "class":"label label-default lable_tag",
+                        "contain":"斜率优化DP"
+                    }
+                ]
+            }
+        },
+        {
+            "name":"h2",
+            "contain":"数学"
+        },
+        {
+            "name":"h3",
+            "contain":{
+                "data":[
+                    {
+                        "name":"span",
+                        "class":"label label-default lable_tag",
+                        "contain":"记忆化搜索"
+                    },
+                    {
+                        "name":"span",
+                        "class":"label label-default lable_tag",
+                        "contain":"背包DP"
+                    },
+                    {
+                        "name":"span",
+                        "class":"label label-default lable_tag",
+                        "contain":"区间DP"
+                    },
+                    {
+                        "name":"span",
+                        "class":"label label-default lable_tag",
+                        "contain":"DAG上的DP"
+                    },
+                    {
+                        "name":"span",
+                        "class":"label label-default lable_tag",
+                        "contain":"树形DP"
+                    },
+                    {
+                        "name":"span",
+                        "class":"label label-default lable_tag",
+                        "contain":"状压DP"
+                    },
+                    {
+                        "name":"span",
+                        "class":"label label-default lable_tag",
+                        "contain":"数位DP"
+                    },
+                    {
+                        "name":"span",
+                        "class":"label label-default lable_tag",
+                        "contain":"计数DP"
+                    },
+                    {
+                        "name":"span",
+                        "class":"label label-default lable_tag",
+                        "contain":"插头DP"
+                    },
+                    {
+                        "name":"span",
+                        "class":"label label-default lable_tag",
+                        "contain":"数据结构优化DP"
+                    },
+                    {
+                        "name":"span",
+                        "class":"label label-default lable_tag",
+                        "contain":"四边形不等式优化DP"
+                    },
+                    {
+                        "name":"span",
+                        "class":"label label-default lable_tag",
+                        "contain":"斜率优化DP"
+                    }
+                ]
+            }
+        },
+        {
+            "name":"h2",
+            "contain":"计算几何"
+        },
+        {
+            "name":"h2",
+            "contain":"杂项"
+        }
+    ]
+}

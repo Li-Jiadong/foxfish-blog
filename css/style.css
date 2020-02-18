@@ -154,6 +154,7 @@ a:focus{
 /*
     body style start
 */
+
 .body_left_data{
     margin-bottom: 20px;
 }
@@ -204,6 +205,14 @@ a:focus{
 .body_r3{
     height: 250px;
     background-color: chocolate;
+}
+.lable_tag{
+    padding-left: 10px !important;
+    margin-left: 20px ;
+    margin-bottom: 5px;
+    cursor: pointer;
+    color: white !important;
+    
 }
 /*
     body style end
@@ -256,12 +265,15 @@ a:focus{
 #body_passage span{
     color: gray;
     align-self: center;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: auto;
+    margin-right: auto;
 }
 #body_passage p{
-    margin-bottom: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: flex;
     text-indent: 32px;
+    max-width: 100%;
 }
 #body_passage a{
     color: blueviolet;
@@ -275,10 +287,24 @@ a:focus{
     border-color: tomato;
 }
 #body_passage img{
-    width: 100%;
+    max-width:100%;
     height: auto;
     margin-bottom: 15px;
     align-self: flex-start;
+}
+#body_passage th{
+    border-style: solid;
+    border-width: 2px;
+    border-color: #000000;
+}
+#body_passage td{
+    border-style: solid;
+    border-width: 2px;
+    border-color: #000000;
+}
+#body_passage li{
+    float: none;
+    list-style: unset;
 }
 /*
     container style end

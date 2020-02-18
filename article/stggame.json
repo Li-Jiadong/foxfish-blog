@@ -1,0 +1,27 @@
+{
+    "data":[
+        {
+            "name":"canvas",
+            "id":"can",
+            "style":"margin: auto;",
+            "height":"448px",
+            "width":"384px",
+            "contain":"看起来你的浏览器不支持的亚子"
+        },
+        {
+            "name":"script",
+            "src":"./js/game/gameobj.js",
+            "contain":""
+        },
+        {
+            "name":"script",
+            "src":"./js/game/gamefps.js",
+            "contain":""
+        },
+        {
+            "name":"script",
+            "src":"./js/game/gamemain.js",
+            "contain":""
+        }
+    ]
+}
